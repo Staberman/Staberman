@@ -76,6 +76,8 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 
 **[app-attest-gate](https://github.com/Staberman/app-attest-gate)** — the parts of Apple App Attest everyone hand-rolls wrong: single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. 46 tests. MIT.
 
+**[AppAttestClient](https://github.com/Staberman/app-attest-client)** — the Swift half: a Secure Enclave request signer whose concurrent registrations collapse into one, so a fresh install cannot race itself into a 401. MIT.
+
 ---
 
 <div align="center">
