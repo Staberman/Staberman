@@ -72,6 +72,8 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 
 **[SplitFlap](https://github.com/Staberman/splitflap)** — mechanical split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
 
+**[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)** — NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies, 39 tests. MIT.
+
 ---
 
 <div align="center">
