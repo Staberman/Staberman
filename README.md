@@ -68,6 +68,10 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 
 > **Production is the only real test.** I run my own infrastructure, so I find out what breaks before a client does.
 
+## Open source
+
+**[SplitFlap](https://github.com/Staberman/splitflap)** — mechanical split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
+
 ---
 
 <div align="center">
