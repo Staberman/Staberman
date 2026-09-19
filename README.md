@@ -74,6 +74,8 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 
 **[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)** — NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies, 39 tests. MIT.
 
+**[app-attest-gate](https://github.com/Staberman/app-attest-gate)** — the parts of Apple App Attest everyone hand-rolls wrong: single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. 46 tests. MIT.
+
 ---
 
 <div align="center">
