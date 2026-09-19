@@ -17,10 +17,24 @@ Founder of **[Staberman](https://staberman.com.ar)**, a one-person studio where 
 
 ---
 
+## Open source
+
+<sub>Extracted from the products below — and the part of my work you can read, run and check without taking my word for it.</sub>
+
+**[SplitFlap](https://github.com/Staberman/splitflap)** — mechanical split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
+
+**[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)** — NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies. MIT.
+
+**[app-attest-gate](https://github.com/Staberman/app-attest-gate)** — the parts of Apple App Attest everyone hand-rolls wrong: single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. MIT.
+
+**[AppAttestClient](https://github.com/Staberman/app-attest-client)** — the Swift half: a Secure Enclave request signer whose concurrent registrations collapse into one, so a fresh install cannot race itself into a 401. MIT.
+
+---
+
 ## What I build
 
 **📱 iOS & macOS**
-Three apps built solo and submitted to the App Store in September 2026, currently in review — a Pomodoro timer styled as a split-flap departure board (SwiftUI, iOS + iPadOS + macOS), a mind-dump journaling app with an AI backend (SwiftUI), and a personal expense tracker with native StoreKit 2 subscriptions (React Native / Expo).
+Three apps built solo and submitted to the App Store — a Pomodoro timer styled as a split-flap departure board (SwiftUI, iOS + iPadOS + macOS), a mind-dump journaling app with an AI backend (SwiftUI), and a personal expense tracker with native StoreKit 2 subscriptions (React Native / Expo).
 
 **🏗️ Multitenant SaaS**
 A marketing analytics panel on Next.js 16 and self-hosted Supabase: row-level security across a five-role tenant hierarchy, batched ingestion that collapsed **9,000 API calls into 18**, cron-driven alerting, and **1,229 passing tests**.
@@ -67,16 +81,6 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 > **Review is a gate, not a ritual.** Nothing reaches a commit without passing an adversarial review pass.
 
 > **Production is the only real test.** I run my own infrastructure, so I find out what breaks before a client does.
-
-## Open source
-
-**[SplitFlap](https://github.com/Staberman/splitflap)** — mechanical split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
-
-**[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)** — NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies, 39 tests. MIT.
-
-**[app-attest-gate](https://github.com/Staberman/app-attest-gate)** — the parts of Apple App Attest everyone hand-rolls wrong: single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. 46 tests. MIT.
-
-**[AppAttestClient](https://github.com/Staberman/app-attest-client)** — the Swift half: a Secure Enclave request signer whose concurrent registrations collapse into one, so a fresh install cannot race itself into a 401. MIT.
 
 ---
 
