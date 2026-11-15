@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Lautaro Antunez — full-stack developer" width="100%">
+  <img src="assets/banner.svg" alt="Lautaro Antunez, full-stack developer" width="100%">
 </div>
 
 <div align="center">
@@ -11,39 +11,50 @@
 
 <br>
 
-I build products end to end — architecture, code, infrastructure, and the store listing.
+I build products end to end: architecture, code, the servers they run on, and the App Store listing.
 
-Founder of **[Staberman](https://staberman.com.ar)**, a one-person studio where I ship software for clients and my own products.
+Founder of **[Staberman](https://staberman.com.ar)**, a one-person studio. I ship software for clients and run a few products of my own.
 
 ---
 
 ## Open source
 
-<sub>Extracted from the products below — and the part of my work you can read, run and check without taking my word for it.</sub>
+<sub>Pulled out of the products below. This is the part of my work you can read and run yourself.</sub>
 
-**[SplitFlap](https://github.com/Staberman/splitflap)** — mechanical split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
+**[SplitFlap](https://github.com/Staberman/splitflap)**: split-flap departure board components for SwiftUI, extracted from Pomotti. Tiles flip, rows spell themselves out, and a `Canvas` fast path keeps a large board at frame rate. MIT.
 
-**[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)** — NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies. MIT.
+**[ntag213-ndef](https://github.com/Staberman/ntag213-ndef)**: NDEF bytes that iOS background tag reading actually accepts, plus an NTAG213 lock verifier that reads page `02h` instead of the one that misleads you. Zero dependencies. MIT.
 
-**[app-attest-gate](https://github.com/Staberman/app-attest-gate)** — the parts of Apple App Attest everyone hand-rolls wrong: single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. MIT.
+**[app-attest-gate](https://github.com/Staberman/app-attest-gate)**: the parts of Apple App Attest people usually hand-roll wrong. Single-use challenges, atomic replay protection, per-assertion environment pinning and request-body binding, paired with StoreKit 2 entitlements and a server-metered free tier. MIT.
 
-**[AppAttestClient](https://github.com/Staberman/app-attest-client)** — the Swift half: a Secure Enclave request signer whose concurrent registrations collapse into one, so a fresh install cannot race itself into a 401. MIT.
+**[AppAttestClient](https://github.com/Staberman/app-attest-client)**: the Swift half. A Secure Enclave request signer whose concurrent registrations collapse into one, so a fresh install can't race itself into a 401. MIT.
+
+**[claude-watch](https://github.com/Staberman/claude-watch)**: control Claude Code from an Apple Watch. My fork keeps the session controls within reach and holds the bridge connection when you lower your wrist.
+
+### Contributions
+
+**[Tomari](https://github.com/elrincondeldev/tomari)** (macOS, Swift): Claude Code sessions as little creatures on the edge of the screen. I made it usable with plain terminal sessions, without the desktop app ([merged](https://github.com/elrincondeldev/tomari/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)), and have more PRs open: a hotkey to jump to a waiting session, chimes, per-project colors.
+
+**[AsoBeast](https://github.com/AsoBeast/asobeast)** (TypeScript): open-source ASO and keyword rank tracking for the App Store and Google Play. I fixed error states in the web app so a failed load says what failed ([merged](https://github.com/AsoBeast/asobeast/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)).
 
 ---
 
 ## What I build
 
 **📱 iOS & macOS**
-Three apps built solo and submitted to the App Store — a Pomodoro timer styled as a split-flap departure board (SwiftUI, iOS + iPadOS + macOS), a mind-dump journaling app with an AI backend (SwiftUI), and a personal expense tracker with native StoreKit 2 subscriptions (React Native / Expo).
+Three apps built solo and submitted to the App Store: a Pomodoro timer styled as a split-flap departure board (SwiftUI, iOS + iPadOS + macOS), a journaling app with an AI backend (SwiftUI), and an expense tracker with native StoreKit 2 subscriptions (React Native / Expo).
+
+**🪪 Wallet passes**
+A loyalty platform where the card lives in Apple Wallet, with Google Wallet in a pilot. Customers scan a QR and get the card without installing anything; the business adds stamps and sends messages to the lock screen. Next.js 16, an append-only points ledger, and a separate Node worker that is the only process allowed to touch the signing certificate. In production.
 
 **🏗️ Multitenant SaaS**
 A marketing analytics panel on Next.js 16 and self-hosted Supabase: row-level security across a five-role tenant hierarchy, batched ingestion that collapsed **9,000 API calls into 18**, cron-driven alerting, and **1,229 passing tests**.
 
 **⚡ Commerce & automation**
-Digital storefronts running in production with paid acquisition on Meta, a WhatsApp sales bot with its own CRM, and an outbound prospecting pipeline that has worked **700+ leads** unattended.
+Digital storefronts with paid acquisition on Meta, a WhatsApp sales bot with its own CRM, and an outbound prospecting pipeline that runs unattended on my own server and has worked through **700+ leads**.
 
 **🧾 Client work**
-An offline-first point-of-sale PWA for a restaurant, built to keep taking orders when the network drops.
+An offline-first point-of-sale PWA for a restaurant that keeps taking orders when the network drops. An operations panel for a currency exchange business with live bank connections through Plaid. A dynamic QR and NFC redirect service on the client's own domain. An eyewear and watch storefront whose stock and prices sync from Tiendanube every hour.
 
 ---
 
@@ -70,23 +81,23 @@ An offline-first point-of-sale PWA for a restaurant, built to keep taking orders
   <img src="https://img.shields.io/badge/GitHub_Actions-161C24?style=for-the-badge&logo=githubactions&logoColor=2088FF">
 </p>
 
-I work in **hexagonal** and **screaming architecture**, with tests that describe behavior instead of implementation. Most of what I build is meant to be maintained for years, not demoed once.
+I work in **hexagonal** and **screaming architecture**, with tests that describe behavior instead of implementation. Most of what I build is meant to be maintained for years.
 
 ---
 
 ## How I work
 
-> **Specs before code.** Every non-trivial change starts as a written spec, a design, and a task list — then gets implemented and verified against them.
+> **Specs before code.** Larger changes start as a written spec, a design and a task list, and get checked against them before they merge.
 
-> **Review is a gate, not a ritual.** Nothing reaches a commit without passing an adversarial review pass.
+> **Review scales with risk.** Anything touching auth, payments or infrastructure gets an adversarial review before it ships. Copy changes don't.
 
-> **Production is the only real test.** I run my own infrastructure, so I find out what breaks before a client does.
+> **I run my own infrastructure.** When something breaks in production, I'm usually the first to know.
 
 ---
 
 <div align="center">
 
-<sub>Most of my repositories are private — they hold client work, live commercial products, or personal data.<br>Happy to walk through any of it on a call.</sub>
+<sub>Most of my repositories are private: client work, live commercial products, or personal data.<br>Happy to walk through any of it on a call.</sub>
 
 <br><br>
 
