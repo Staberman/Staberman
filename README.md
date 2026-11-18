@@ -31,6 +31,12 @@ Founder of **[Staberman](https://staberman.com.ar)**, a one-person studio. I shi
 
 **[claude-watch](https://github.com/Staberman/claude-watch)**: control Claude Code from an Apple Watch. My fork keeps the session controls within reach and holds the bridge connection when you lower your wrist.
 
+**[dead-click](https://github.com/Staberman/dead-click)**: finds the buttons and links a real user cannot click because another element is on top of them, at every viewport you list. Built after a decorative glow layer ate a call-to-action at desktop width while every test passed. Node and Playwright. MIT.
+
+**[cc-memory-lint](https://github.com/Staberman/cc-memory-lint)**: a linter for Claude Code auto-memory folders. It reports an index past the size that gets loaded, dead links, orphan files and broken frontmatter. Zero dependencies. MIT.
+
+**[app-store-connect-gotchas](https://github.com/Staberman/app-store-connect-gotchas)**: 41 App Store Connect traps indexed by the exact error string, each with symptom, cause, fix and a way to verify. Review, signing, TestFlight API, screenshots. MIT.
+
 ### Contributions
 
 **[Tomari](https://github.com/elrincondeldev/tomari)** (macOS, Swift): Claude Code sessions as little creatures on the edge of the screen. I made it usable with plain terminal sessions, without the desktop app ([merged](https://github.com/elrincondeldev/tomari/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)), and have more PRs open: a hotkey to jump to a waiting session, chimes, per-project colors.
