@@ -43,6 +43,12 @@ Founder of **[Staberman](https://staberman.com.ar)**, a one-person studio. I shi
 
 **[AsoBeast](https://github.com/AsoBeast/asobeast)** (TypeScript): open-source ASO and keyword rank tracking for the App Store and Google Play. I fixed error states in the web app so a failed load says what failed ([merged](https://github.com/AsoBeast/asobeast/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)).
 
+### Security
+
+I audit open-source AI agent tooling and Model Context Protocol (MCP) servers, and report what I find through each project's coordinated-disclosure channel. The work is about security-control bypasses: a read-only flag that a crafted string slips past, a tool allow-list that a parser disagrees with, an SSRF guard that checks the wrong host. Details stay private until the maintainer publishes the advisory, so most of this isn't linkable yet — credited advisories will appear here as they go public.
+
+What's public today: a fix PR to **[mcp-toolbox](https://github.com/googleapis/mcp-toolbox/pull/4540)** (Google) closing an RDF-injection hole in the Dgraph source.
+
 ---
 
 ## What I build
