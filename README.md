@@ -61,7 +61,7 @@ I also audit open-source agent tooling and MCP servers (see Security below). A f
 
 - **[Tomari](https://github.com/elrincondeldev/tomari)** (macOS, Swift): Claude Code sessions as little creatures on the edge of the screen. I made it usable with plain terminal sessions, without the desktop app ([merged](https://github.com/elrincondeldev/tomari/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)), and have more PRs open: a hotkey to jump to a waiting session, chimes, per-project colors.
 - **[AsoBeast](https://github.com/AsoBeast/asobeast)** (TypeScript): open-source ASO and keyword rank tracking for the App Store and Google Play. I fixed error states in the web app so a failed load says what failed ([merged](https://github.com/AsoBeast/asobeast/pulls?q=is%3Apr+author%3AStaberman+is%3Amerged)).
-- **In review:** PRs to [mcp-toolbox](https://github.com/googleapis/mcp-toolbox/pull/4540), [rtk](https://github.com/rtk-ai/rtk/pull/5123), [ezbookkeeping](https://github.com/mayswind/ezbookkeeping/pull/774) and [better-claude](https://github.com/midudev/better-claude/pulls?q=is%3Apr+author%3AStaberman).
+- **In review:** PRs to [mcp-toolbox](https://github.com/googleapis/mcp-toolbox/pull/4540), [rtk](https://github.com/rtk-ai/rtk/pull/5123), [ezbookkeeping](https://github.com/mayswind/ezbookkeeping/pull/774), [pgschema](https://github.com/pgplex/pgschema/pulls?q=is%3Apr+author%3AStaberman), [concord](https://github.com/chojs23/concord/pull/442) and [better-claude](https://github.com/midudev/better-claude/pulls?q=is%3Apr+author%3AStaberman).
 
 ---
 
