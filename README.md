@@ -38,6 +38,8 @@ I work in **hexagonal** and **screaming architecture**, with tests that describe
 
 Pulled out of the products below. This is the part of my work you can read and run yourself.
 
+**[allowlist-guard](https://github.com/Staberman/allowlist-guard)**: finds and removes the secrets that Claude Code's "don't ask again" saved into your permission rules, and blocks commits that would publish them. GitGuardian counted 31,088 such secrets in public repos. Zero dependencies, no network. MIT.
+
 **[cc-memory-lint](https://github.com/Staberman/cc-memory-lint)**: a linter for Claude Code auto-memory folders. It reports an index past the size that gets loaded, dead links, orphan files and broken frontmatter. Zero dependencies. MIT.
 
 **[dead-click](https://github.com/Staberman/dead-click)**: finds the buttons and links a real user cannot click because another element is on top of them, at every viewport you list. Built after a decorative glow layer ate a call-to-action at desktop width while every test passed. Node and Playwright. MIT.
