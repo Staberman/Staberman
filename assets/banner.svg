@@ -1,74 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Lautaro Antunez — full-stack developer">
-<defs>
-<linearGradient id="tileTop" x1="0" y1="0" x2="0" y2="1">
-  <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/>
-  <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.01"/>
-</linearGradient>
-<radialGradient id="glow" cx="0.5" cy="0.32" r="0.75">
-  <stop offset="0" stop-color="#1B2836" stop-opacity="1"/>
-  <stop offset="1" stop-color="#0B0F14" stop-opacity="1"/>
-</radialGradient>
-</defs>
-<rect width="1200" height="300" fill="url(#glow)"/>
-<rect x="48.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="48.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="82.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">L</text>
-<line x1="48.0" y1="106.0" x2="116.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="122.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="122.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="156.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">A</text>
-<line x1="122.0" y1="106.0" x2="190.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="196.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="196.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="230.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">U</text>
-<line x1="196.0" y1="106.0" x2="264.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="270.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="270.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="304.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">T</text>
-<line x1="270.0" y1="106.0" x2="338.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="344.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="344.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="378.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">A</text>
-<line x1="344.0" y1="106.0" x2="412.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="418.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="418.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="452.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">R</text>
-<line x1="418.0" y1="106.0" x2="486.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="492.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="492.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="526.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">O</text>
-<line x1="492.0" y1="106.0" x2="560.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="566.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="566.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<line x1="566.0" y1="106.0" x2="634.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="640.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="640.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="674.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">A</text>
-<line x1="640.0" y1="106.0" x2="708.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="714.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="714.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="748.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">N</text>
-<line x1="714.0" y1="106.0" x2="782.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="788.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="788.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="822.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">T</text>
-<line x1="788.0" y1="106.0" x2="856.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="862.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="862.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="896.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">U</text>
-<line x1="862.0" y1="106.0" x2="930.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="936.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="936.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="970.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">N</text>
-<line x1="936.0" y1="106.0" x2="1004.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="1010.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="1010.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="1044.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">E</text>
-<line x1="1010.0" y1="106.0" x2="1078.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<rect x="1084.0" y="54" width="68" height="104" rx="7" fill="#161C24" stroke="#252E3A" stroke-width="1"/>
-<rect x="1084.0" y="54" width="68" height="52" rx="7" fill="url(#tileTop)"/>
-<text x="1118.0" y="106.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">Z</text>
-<line x1="1084.0" y1="106.0" x2="1152.0" y2="106.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
-<text x="600.0" y="210" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="19" font-weight="500" fill="#8FA0B4" text-anchor="middle" letter-spacing="2.5">FULL-STACK DEVELOPER &#183; iOS &#183; NEXT.JS &#183; FOUNDER OF STABERMAN</text>
-<rect x="480.0" y="240" width="240" height="2" rx="1" fill="#F2B441" fill-opacity="0.55"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+<title id="t">Lautaro Antúnez, AI Stack Engineer</title>
+<desc id="d">Lautaro Antunez, founder of Staberman. AI Stack Engineer spelled on split-flap tiles.</desc>
+<defs><linearGradient id="tt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.01"/></linearGradient>
+<radialGradient id="g" cx="0.5" cy="0.4" r="0.75"><stop offset="0" stop-color="#1B2836"/><stop offset="1" stop-color="#0B0F14"/></radialGradient></defs>
+<rect width="1200" height="300" fill="url(#g)"/>
+<text x="600" y="62" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="22" font-weight="600" fill="#F2B441" text-anchor="middle" letter-spacing="9">LAUTARO ANTÚNEZ</text>
+<rect x="42" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="42" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="72" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">A</text>
+<line x1="42" y1="136.0" x2="102" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="108" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="108" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="138" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">I</text>
+<line x1="108" y1="136.0" x2="168" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="174" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="174" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<line x1="174" y1="136.0" x2="234" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="240" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="240" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="270" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">S</text>
+<line x1="240" y1="136.0" x2="300" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="306" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="306" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="336" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">T</text>
+<line x1="306" y1="136.0" x2="366" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="372" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="372" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="402" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">A</text>
+<line x1="372" y1="136.0" x2="432" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="438" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="438" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="468" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">C</text>
+<line x1="438" y1="136.0" x2="498" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="504" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="504" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="534" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">K</text>
+<line x1="504" y1="136.0" x2="564" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="570" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="570" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<line x1="570" y1="136.0" x2="630" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="636" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="636" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="666" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">E</text>
+<line x1="636" y1="136.0" x2="696" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="702" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="702" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="732" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">N</text>
+<line x1="702" y1="136.0" x2="762" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="768" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="768" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="798" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">G</text>
+<line x1="768" y1="136.0" x2="828" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="834" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="834" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="864" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">I</text>
+<line x1="834" y1="136.0" x2="894" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="900" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="900" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="930" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">N</text>
+<line x1="900" y1="136.0" x2="960" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="966" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="966" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="996" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">E</text>
+<line x1="966" y1="136.0" x2="1026" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="1032" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="1032" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="1062" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">E</text>
+<line x1="1032" y1="136.0" x2="1092" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<rect x="1098" y="88" width="60" height="96" rx="7" fill="#161C24" stroke="#252E3A"/>
+<rect x="1098" y="88" width="60" height="48" rx="7" fill="url(#tt)"/>
+<text x="1128" y="136.0" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#F2B441" text-anchor="middle" dominant-baseline="central">R</text>
+<line x1="1098" y1="136.0" x2="1158" y2="136.0" stroke="#080B0F" stroke-width="2.5" stroke-opacity="0.9"/>
+<text x="600" y="230" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="17" font-weight="500" fill="#8FA0B4" text-anchor="middle" letter-spacing="2.5">AGENTS · MCP · SWIFT · NEXT.JS · INFRA · FOUNDER OF STABERMAN</text>
+<rect x="480" y="256" width="240" height="2" rx="1" fill="#F2B441" fill-opacity="0.55"/></svg>
